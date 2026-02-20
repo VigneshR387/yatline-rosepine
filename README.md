@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for Yatline</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -13,28 +13,46 @@
 
 ### Rosé Pine Moon
 
-<img width="256" alt="Rosé Pine Moon with App" src="https://github.com/user-attachments/assets/0acf279b-492c-4d75-acba-9de1d6cc8fcb" />
+<img width="256" alt="Rosé Pine Moon with App" src="assets/yatline-rospine-moon.png" />
 
 ### Rosé Pine Dawn
 
-<img width="256" alt="Rosé Pine Dawn with App" src="https://github.com/user-attachments/assets/fb1b1d16-55e8-45db-b388-7c25250b8022" />
+<img width="256" alt="Rosé Pine Dawn with App" src="assets/yatline-rosepine-dawn.png" />
 
+## Installation
+```bash
+ya pkg add VigneshR387/yatline-rosepine
+```
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Add the following line in `init.lua`
+```lua
+-- Choose the variant you like ("rose_pine" | "moon" | "dawn" )
+local rose_pine_theme = require("yatline-rosepine"):setup("dawn")
+
+```
+2. Pass the theme to `yatline` setup
+```lua
+-- init.lua
+
+-- Load the theme inside `require("yatline"):setup`
+```lua
+require("yatline"):setup({
+    theme = rose_pine_theme, -- pass the theme here
+
+    -- Your remaining yatline configuration
+    -- header_line = { ... },
+    -- status_line = { ... },
+})
+
+```
 
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
+- [imsi32](https://github.com/imsi32)
+- [sxyazi](https://github.com/sxyazi)
+- [Rose Pine Theme](https://github.com/rose-pine)
 
-## Contributing
 
-Modify `template.json` using Rosé Pine variables, then build variants:
-
-```sh
-npx @rose-pine/build@latest
-```
