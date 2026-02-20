@@ -9,15 +9,21 @@
 
 ### Rosé Pine
 
-<img width="256" alt="Rosé Pine with yatline" src="assets/yatline-rospine.png" />
+<img width="500" alt="Rosé Pine with Yatline" src="assets/yatline-rospine.png" />
+
+<img width="500" alt="Rosé Pine with Yatline" src="assets/rosepine-full.png" />
 
 ### Rosé Pine Moon
 
-<img width="256" alt="Rosé Pine Moon with App" src="assets/yatline-rospine-moon.png" />
+<img width="500" alt="Rosé Pine Moon with Yatline" src="assets/yatline-rospine-moon.png" />
+
+<img width="500" alt="Rosé Pine Moon with Yatline" src="assets/rosepine-moon-full.png" />
 
 ### Rosé Pine Dawn
 
-<img width="256" alt="Rosé Pine Dawn with App" src="assets/yatline-rosepine-dawn.png" />
+<img width="500" alt="Rosé Pine Dawn with Yatline" src="assets/yatline-rosepine-dawn.png" />
+
+<img width="500" alt="Rosé Pine Dawn with Yatline" src="assets/rosepine-dawn-full.png" />
 
 ## Installation
 ```bash
